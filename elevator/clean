@@ -1,0 +1,2 @@
+echo "clean classes ..."
+rm -rf target/*

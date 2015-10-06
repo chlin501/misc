@@ -1,0 +1,6 @@
+./clean
+echo "compile source code ..."
+if [ ! -d "target" ]; then
+  mkdir target
+fi
+scalac -cp ./ -d target src/ec/Test.scala
