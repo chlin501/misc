@@ -1,8 +1,6 @@
 ### Introduction
 
-  Store data with trie data structure. More compact form could utilize [PATRICIA] [patricia] - Practical Algorithm To Retrieve Information Coded in Alphanumeric.
-
-  [patricia]: http://dl.acm.org/citation.cfm?id=321481 (PATRICIA—Practical Algorithm To Retrieve Information Coded in Alphanumeric)
+  The lowest common ancestors example.
 
 ### Prerequisite 
 
