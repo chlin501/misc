@@ -18,10 +18,10 @@
 object Map {
 
   def main(args: Array[String]) {
-    println(map(Seq(1, 2, 3), { i => i * 2 } ))
+    println(map(Seq(1, 2, 3)) {  value => value * 2  } )
   }
 
-  def map(seq: Seq[Int], f: Int => Int): Seq[Int] = {
+  def map(seq: Seq[Int])(f: Int => Int): Seq[Int] = {
     def _map(all: Seq[Int], rest: Seq[Int]): Seq[Int] = rest match {
       case Nil => all
       case head :: tail => _map(all :+ f(head), tail)
